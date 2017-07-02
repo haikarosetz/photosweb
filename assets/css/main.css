@@ -1,0 +1,47 @@
+body {
+   background: #eeeeee;
+   display: flex;
+   min-height: 100vh;
+   flex-direction: column;
+}
+
+.pagination li.active {
+    background-color: #000;
+}
+
+.collection .collection-item.active {
+    background-color: #000;
+    color: #eafaf9;
+}
+
+nav ul a:hover {
+    background-color:#fff;
+    color:#000;
+}
+
+.card .card-action a:not(.btn):not(.btn-large):not(.btn-large):not(.btn-floating) {
+    color: #000;
+    margin-right: 24px;
+    transition: color .3s ease;
+    text-transform: uppercase;
+}
+
+main {
+ flex: 1 0 auto;
+}
+.page-footer{
+  padding-top:0px;
+}
+
+.title{
+  padding-left: 16px;
+}
+
+.text{
+  line-height: 26px;
+  font-family: HelveticaNeueW01-45Ligh,HelveticaNeueW02-45Ligh,HelveticaNeueW10-45Ligh,sans-serif;
+}
+
+.container{
+  width:90%;
+}
